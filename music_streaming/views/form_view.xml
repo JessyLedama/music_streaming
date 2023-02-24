@@ -1,0 +1,22 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="music_streaming_form_view">
+            <field name="name">music.streaming.form</field>
+            <field name="model">music.streaming</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="artist"/>
+                            <field name="album"/>
+                        </group>
+                        <group>
+                            <field name="file" widget="binary"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

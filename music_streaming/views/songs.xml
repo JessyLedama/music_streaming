@@ -1,6 +1,7 @@
 <!-- music_streaming/views/songs.xml -->
 
 <odoo>
+    
     <template id="songs">
         <t t-foreach="songs" t-as="song">
             <div class="song">

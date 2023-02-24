@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="music_streaming_tree_view">
+            <field name="name">music.streaming.tree</field>
+            <field name="model">music.streaming</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="artist"/>
+                    <field name="album"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>
