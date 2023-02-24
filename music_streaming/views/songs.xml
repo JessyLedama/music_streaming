@@ -42,5 +42,14 @@
             </div>
         </div>
     </template>
+
+    <record id="music_streaming_action" model="ir.actions.act_window">
+        <field name="name">Music Streaming</field>
+        <field name="res_model">music.song</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="music_streaming_menu_item" name="Music Streaming" sequence="1" action="music_streaming_action" />
+    
 </odoo>
 
