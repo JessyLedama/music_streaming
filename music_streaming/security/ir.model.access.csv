@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_music_streaming_user,Music Streaming User,model_music_streaming_user,base.group_user,1,1,1,0
+access_music_streaming_admin,Music Streaming Admin,model_music_streaming_user,base.group_system,1,1,1,1
+access_music_streaming_song_user,Song User,model_music_streaming_song,base.group_user,1,1,1,0
+access_music_streaming_song_admin,Song Admin,model_music_streaming_song,base.group_system,1,1,1,1
+access_music_streaming_album_user,Album User,model_music_streaming_album,base.group_user,1,1,1,0
+access_music_streaming_album_admin,Album Admin,model_music_streaming_album,base.group_system,1,1,1,1
+access_music_streaming_playlist_user,Playlist User,model_music_streaming_playlist,base.group_user,1,1,1,0
+access_music_streaming_playlist_admin,Playlist Admin,model_music_streaming_playlist,base.group_system,1,1,1,1
