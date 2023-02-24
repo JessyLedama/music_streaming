@@ -4,7 +4,12 @@
     'category': 'Website',
     'author': 'SIMI Technologies',
     'summary': 'Allow users to upload and stream music on the website',
-    'description': """This module allows authenticated users to upload music, either as singles or part of an album, and create playlists of their favorite songs. Uploaded songs are available for streaming on the website.""",
+    'description': """
+    
+    This module allows authenticated users to upload music, either as singles or part of an album, and create playlists of their favorite songs. Uploaded songs are available for streaming on the website.
+    
+    The module utilizes python-magic for file identification. install python-magic using pip before installing this module.
+    """,
     'depends': [
         'base',
         'web',

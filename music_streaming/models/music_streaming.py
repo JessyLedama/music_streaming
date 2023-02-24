@@ -1,5 +1,6 @@
 # music_streaming/models/music_streaming.py
 
+import magic
 from odoo import models, fields, api
 
 class MusicSong(models.Model):
