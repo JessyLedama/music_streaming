@@ -38,7 +38,7 @@
                     <t t-esc="song.duration"/>
                         seconds
                 </p>
-                <audio t-att-src="'data:audio/mp3;base64,' + song.file" controls></audio>
+                <audio t-att-src="'data:audio/mp3;base64,' + song.file" controls="controls"></audio>
             </div>
         </div>
     </template>
